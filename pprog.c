@@ -14,7 +14,6 @@ int main(){
 #pragma omp for
 		for(i=0;i<N;i++){
 			c[i]=a[i] + b[i];
-
 		}
 	}
 
